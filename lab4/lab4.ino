@@ -3,8 +3,8 @@ const int echoPin = 12;
 long duration;
 int distanceCm, distanceInch;
 
-int R1 = 3.43e10/2;
-int R2 = 1.35039370079e10/2;
+double R1 = 0.0343/2;
+double R2 = (0.0343/2.54)/2;
 
 void setup() {
   // put your setup code here, to run once:
